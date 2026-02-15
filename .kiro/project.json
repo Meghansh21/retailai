@@ -1,0 +1,31 @@
+{
+  "projectName": "RetailTrust AI",
+  "description": "AI-powered retail intelligence platform that combines retailer sales data with external market signals (seasonal trends, festivals, search volume, pricing trends) to generate short-term demand forecasts, similar product insights, and product-market fit analysis for small retailers in India",
+  "version": "2.0",
+  "targetAudience": "Small retailers in India (Bharat context)",
+  "scope": "MVP for hackathon - Category-level forecasting (7-15 days)",
+  "keyFeatures": [
+    "CSV-based sales data ingestion",
+    "External market signal integration (festivals, search trends, seasonality)",
+    "ML-based demand forecasting with confidence intervals",
+    "Continuous learning from actual results",
+    "Similar product analysis and recommendations",
+    "Product-market fit assessment",
+    "Explainable AI with clear reasoning",
+    "Inventory risk alerts (stockout, overstock, seasonal spikes)",
+    "Bilingual support (English/Hindi)"
+  ],
+  "technicalApproach": {
+    "architecture": "Microservices",
+    "mlModels": "Ensemble (Prophet, XGBoost, LightGBM)",
+    "dataStrategy": "Hybrid (retailer sales + external signals)",
+    "learningType": "Continuous learning with feedback loop"
+  },
+  "documents": {
+    "requirements": "requirements.md",
+    "design": "design.md"
+  },
+  "generatedBy": "Kiro",
+  "hackathon": "TrustAI Ideathon 2026",
+  "lastUpdated": "2026-02-14"
+}
